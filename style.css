@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(244,244,244) ;
+  
+}
+main{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#header{
+    background-color:rgb(51,51,51);
+    text-align: center;
+    color: white;
+    height: 10vh;
+    padding-top: 20px;
+    font-size: 21px;
+    
+}
+
+
+#filter{
+   
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+#genres{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.books{
+    width: 49%;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+.books-left{
+    /* margin-left: 20%; */
+    margin-right: 25px;
+}
+.books-right{
+    /* margin-left: 20%; */
+    margin-left: 25px;
+}
+.book-info{
+    padding-right: 20px;
+   margin-left: 30px;
+}
+.book-info>h2{
+    margin-bottom: 20px;
+  
+}
+.books-photos{
+   margin: auto;
+   text-align: center;
+   padding-top: 30px;
+   margin-bottom: 20px;
+    
+}
+span{
+    font-size: 20px;
+    display: block;
+}
+
+.add-to-cart-btn{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(240,90,40);
+    border: none;
+    margin-right: 60px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+footer{
+    background-color:rgb(51,51,51);
+    text-align: center;
+    height: 7vh;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#copyright{
+    
+    color: white;
+ 
+}
